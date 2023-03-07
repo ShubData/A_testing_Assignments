@@ -7,3 +7,13 @@ float	  4 bytes    Sufficient for storing 6 to 7 decimal digits
 double	8 bytes	   Sufficient for storing 15 decimal digits
 boolean	1 bit	     Stores true or false values
 char	  2 bytes	   Stores a single character/letter or ASCII values
+
+Is below statement valid in java?
+   int int 10 
+   No , not valid as int is a keyword
+What is type casting?
+   Type Casting is changing a primitive data type to other
+   ex. float a = 4.45f;
+       int b = (int) a; (int = 4)
+int ln = 1234_2343_22376;
+   Yes
