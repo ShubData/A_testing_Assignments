@@ -12,3 +12,6 @@ command line arguements - (run configuration > arguements)
 plugins???
 8 bits in 1 byte
 byte range -128 to 127
+
+Q : Which variable notation is correct??
+ variable starting with "_" , "$" , any letter. 
