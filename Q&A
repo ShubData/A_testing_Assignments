@@ -1,0 +1,6 @@
+Q : How to increase Heap Space in eclipse.ini file?
+A : Go to eclipse directory > open eclipse.ini > increase xms256m (small heap size) & xmx512m. > close and restart eclipse.
+Q : What is Xmx and Xms variables?
+A : The flag Xmx specifies the maximum memory allocation pool for a JVM, while Xms specifies the initial memory allocation pool(heap size).
+Q : How to set different JRE in eclipse.ini file?
+A : Go to eclipse directory > open eclipse.ini > under -vm option > update/ change to bin path of desired JRE > save and restart eclipse.
