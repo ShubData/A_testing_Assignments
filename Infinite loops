@@ -1,0 +1,42 @@
+Q : Infinite FOR loops 
+A : 
+   METHOD 1
+   class Main {
+
+     public static void main(String args[]) {
+       for (int i = 0; i < 1; i++) {
+         System.out.println("Infinite ");
+       } 
+     }
+   }
+  -------------------------------------------
+  METHOD 2
+     class Main {
+
+  public static void main(String args[]) {
+    for (int i = 0; i < 2 ; i--) {
+      System.out.println("Infinite");
+    }
+  }
+}
+Q : Infinite While loops
+A : METHOD 1
+    class Main {
+
+  public static void main(String args[]) {
+    while (true) {
+      System.out.println("Infinite");
+    }
+  }
+}
+-------------------------------------------
+Method 2 
+class Main {
+
+  public static void main(String args[]) {
+    int i = 1 
+    while (i<10) {
+      System.out.println("Infinite");
+    }
+  }
+}
