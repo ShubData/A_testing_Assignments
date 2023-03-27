@@ -42,4 +42,10 @@ A : loops
 Q : What is obfuscation?
 
 A : Obfuscation is the action of making the code unclear by doing some modifications in the executable code but the code remains fully functional.
-    The purpose of using obfuscation is to make the code hard to access for an external entity (ex. an hacker).
+    The purpose of using obfuscation is to make the code hard to see or understand for an external entity (ex. an hacker).
+
+Q : Difference between Obfuscation and Encoding ?
+
+A : OBFUSCATION is a technique that is normally used to hide the meaning of some software by rearranging the operations,
+    An obfuscated program should produce exactly the same results as an unobfuscated one.
+    Where as The purpose of ENCODING is to transform data so that it can be properly (and safely) consumed by a different type of system, e.g. binary data being sent       over email, or viewing special characters on a web page. The goal is not to keep information secret, but rather to ensure that it’s able to be properly consumed.       Encoding transforms data into another format using a scheme that is publicly available so that it can easily be reversed.        
