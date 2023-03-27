@@ -13,8 +13,4 @@ Q : Difference between 32bits and 64 bits Operating System?
 A : A 32-bit system can access 232 different memory addresses, i.e 4 GB of RAM or physical memory ideally, it can access more than 4 GB of RAM also. 
     A 64-bit system can access 264 different memory addresses, i.e actually 18-Quintillion bytes of RAM. In short, any amount of memory greater than 4 GB 
     can be easily handled by it.
-Q : why we use for loop when we have while and do.while loops?
-A : we use for loop when we know how many times we have to run the loop.
-Q : Write a real time scenario when we use do while loop?
-A : We use do while loops where we want to run the code atleast once ,regardless of the condition. we can use this in a Menu option ,where menu is atleast shown once, 
-    before accessing forward. 
+
