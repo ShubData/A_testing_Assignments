@@ -85,3 +85,6 @@ A : BITWISE Operators :
        e) logical oprators can evaluate from floats and double values.
        f) Syntax: && ,||, !
     
+Q : Which Operator is better? Bitwise and Logical. also write reasons?
+
+A : Both the operators can be used in different scenarios, logical operators are more likely to be used when making a decision based program whereas bitwise operators     are often found when working on bit level.Although Bitwise operator has a speed advantage it lacks some function of  working with float or boolean values, hence       both operators are eqally important, rather than choosing one over other, its better to use them where they are better suited.
