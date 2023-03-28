@@ -66,4 +66,22 @@ A : Limitations of Swtich Case :
 
 Q : What is basic difference between Logical and Bitwise operators?
 
-A : 
+A : BITWISE Operators : 
+                     
+      a) bitwise operators work on binary digits of integer values (long, int, short, char, and byte) 
+      b) bitwise operators always evaluate both operands.
+      c) bitwise operators work on bits and perform bit by bit operations.
+      d) it return an integer.
+      e) bitwise operations cannot be used on boolean, float, or double
+      f) Syntax: & , | , ~
+    
+  
+   LOGICAL Operators : 
+   
+       a) logical operators work on boolean expressions.
+       b) logical operators always evaluate the first boolean expression and, depending on its result and the operator used, may or may not evaluate the second.
+       c) logical operators are used in making decisions based on multiple conditions.
+       d) it returns boolean values (True or False).
+       e) logical oprators can evaluate from floats and double values.
+       f) Syntax: && ,||, !
+    
