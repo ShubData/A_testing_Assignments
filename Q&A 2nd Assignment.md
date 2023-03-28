@@ -1,4 +1,8 @@
 # 2nd Assignment Q&A
+### Q : Which Special character allowed in Java class first letter
+A : $ , _ are the only special character allowed as starting of an identifier.
+
+
 ### Q : What is first statement in java file ?
 A : The package statement should be the first line in the file.
 
