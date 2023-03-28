@@ -107,10 +107,12 @@ A : Reserved keywords are reserved words in Java that serve as a code key. These
 ### Q : How many keywords available in java?
 
 A : Currently there are 67 reserved terms or keywords in Java.
-         abstract	continue	for	  new	   switch
-         assert	    default	    goto  package   synchronized
-         boolean	do         	if	 private	this
-         break	    double	implements	protected	throw
+         a)
+         
+         > abstract	,continue	,for ,new, switch
+         > assert, default, goto , package, synchronized
+         > boolean, do , if	,private, this
+         > break, double, implements, protected, throw
 
 ### Q : Why java consider goto as keyword?
 
