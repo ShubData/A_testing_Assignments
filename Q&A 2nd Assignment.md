@@ -49,3 +49,21 @@ Q : Difference between Obfuscation and Encoding ?
 A : OBFUSCATION is a technique that is normally used to hide the meaning of some software by rearranging the operations,
     An obfuscated program should produce exactly the same results as an unobfuscated one.
     Where as The purpose of ENCODING is to transform data so that it can be properly (and safely) consumed by a different type of system, e.g. binary data being sent       over email, or viewing special characters on a web page. The goal is not to keep information secret, but rather to ensure that it’s able to be properly consumed.       Encoding transforms data into another format using a scheme that is publicly available so that it can easily be reversed.        
+
+Q : Why do we need break in switch case ?
+
+A : The break statement notifies the program to exit out of the switch case, if break statement is not provided, the switch case will keep running and possibly throw
+    an incorrect solution/requirement/answer.
+    
+Q : What is limitation in Switch Case?
+
+A : Limitations of Swtich Case : 
+
+      a) Switch case doesn't allow floating numbers. (It only allows int, short, byte, long, char,String )
+      
+      b) Each case should be configured with either a constant value or a final value variable. Otherwise, the program will not compile.
+
+
+Q : What is basic difference between Logical and Bitwise operators?
+
+A : 
