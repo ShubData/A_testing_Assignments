@@ -40,3 +40,17 @@ class Main {
     }
   }
 }
+
+Q : Infinite Do-While loop
+A : 
+   public class Main {
+
+	public static void main(String[] args) {
+
+		int i = 5;
+		do {
+			System.out.println("infinite"+i);
+			
+		} while (true);
+	}
+}
