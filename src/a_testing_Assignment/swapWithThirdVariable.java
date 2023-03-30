@@ -4,9 +4,9 @@ public class swapWithThirdVariable {
 public static void main(String[] args) {
 	int i = 10;
 	int j = 7;
-	int k = i;
-	 i = j;
-	 j = k;
+	int k = i;//10
+	 i = j;// 7
+	 j = k;//10
 
     System.out.println("new value of i is : " + i);
 
