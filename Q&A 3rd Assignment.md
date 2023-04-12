@@ -147,3 +147,38 @@ A : **__Static Method visibility__**
 - Default : only within class and package.
 - Protected : within class ,package and outside package with subclass (using extends)only.
 - Public : Accesible everywhere 
+
+### Q : Create classes with all access modifier and check behaviour
+A :
++ **illegal modifier a class cannot be declared as private or protected**
+   
+      private class A{
+    
+      }
+
++ **default class works and doesnt show any error** 
+        
+        class B{
+
+        }
+
++ **illegal modifier a class cannot be declared as private or protected**
+     
+      protected class C{
+
+      }
+
++ **only one public class within a file (the public type D must be defined in its own file)**
+          
+          public class D{
+
+         }
+
+      public class Demo{
+      public static void main(String[] args){
+      A a1 = new A();
+      B a1 = new B();
+      C a1 = new C();
+      D a1 = new D();
+      }
+      }
