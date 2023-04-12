@@ -105,3 +105,20 @@ A : Outer or top level class connot be defined as Private or Protected
      
    - If we are allowed to make a class `Protected` then we can access it inside the package very easily but for accessing that class outside of the package we first        need to extend that entity in which this class is defined which is again is its package.
      And since a package can not be extended (can be imported) defining a class protected will again make it similar to defining it as default which we can already do.      So again there is no benefit of defining a class protected.
+
+### Q : Write Static and Instance variable and check visibility with private, default, protected and public
+A :  **__static variable visibility__**
+            
+    - Private : only within class.
+    - Default : only within class and package.
+    - Protected : within class ,package and outside package with subclass (using extends)only.
+    - Public : Accesible everywhere 
+  
+  **__Instance variable visibility__**(Should be accesed in a non static way)
+   
+    - Private : only within class.
+    - Default : only within class and package.
+    - Protected : within class ,package and outside package with subclass (using extends)only.
+    - Public : Accesible everywhere 
+     
+      
