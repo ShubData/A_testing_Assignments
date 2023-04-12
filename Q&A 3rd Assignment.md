@@ -91,4 +91,17 @@ A :
 ### Q : Which variable type is not defined by default? instance, local or static ?
 A : Local variable  are not defined by default and have to be coded in.
 
+### Q : Write the visibility of all four access modifiers? public, private, default and protected.
+A : 
+   + **_Public_** : The public access modifier is accessible everywhere. It has the widest scope among all other modifiers.
+   + **_Private_** : The private access modifier is accessible only within the class.
+   + **_Default_** : The default modifier is accessible only within package.
+   + **_Protected_** : The protected access modifier is accessible within package and outside the package but through inheritance only.
 
+### Q : Which class cannot have access modifier as private and protected & Why ?
+A : Outer or top level class connot be defined as Private or Protected
+   - If we are allowed to declare a class as `Private`, the class will become private to its package and will not be accessible from outside of the package.
+      So defining private access to the class will make it accessible inside the same package which default keyword already do for us, Therefore there is no benefit of       defining a class private it will only make things ambiguous.
+     
+   - If we are allowed to make a class `Protected` then we can access it inside the package very easily but for accessing that class outside of the package we first        need to extend that entity in which this class is defined which is again is its package.
+     And since a package can not be extended (can be imported) defining a class protected will again make it similar to defining it as default which we can already do.      So again there is no benefit of defining a class protected.
