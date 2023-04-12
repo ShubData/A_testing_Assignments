@@ -107,7 +107,7 @@ A : Outer or top level class connot be defined as Private or Protected
      And since a package can not be extended (can be imported) defining a class protected will again make it similar to defining it as default which we can already do.      So again there is no benefit of defining a class protected.
 
 ### Q : Write Static and Instance variable and check visibility with private, default, protected and public
-A :  **__static variable visibility__**
+A :  **__Static variable visibility__**
             
     - Private : only within class.
     - Default : only within class and package.
@@ -120,5 +120,30 @@ A :  **__static variable visibility__**
     - Default : only within class and package.
     - Protected : within class ,package and outside package with subclass (using extends)only.
     - Public : Accesible everywhere 
-     
-      
+
+### Q : Write Static and Non-Static Method and check visibility with private, default, protected and public
+A : **__Static Method visibility__**
+
+    package java_push;
+    class Scopechecker{
+    static void good() {
+    System.out.println("I am Visible here");
+    }
+    }
+- Private : only within class.
+- Default : only within class and package.
+- Protected : within class ,package and outside package with subclass (using extends)only.
+- Public : Accesible everywhere 
+
+**__Non-Static Method visibility__**
+
+    package java_push;
+    class Scopechecker{
+     void good() {
+    System.out.println("I am Visible here");
+    }
+    }
+- Private : only within class.
+- Default : only within class and package.
+- Protected : within class ,package and outside package with subclass (using extends)only.
+- Public : Accesible everywhere 
