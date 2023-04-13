@@ -1,3 +1,13 @@
+### Q : What is package in Java ?
+A : A java package is a group of similar types of classes, interfaces and sub-packages.Package in java can be categorized in two form, built-in package and user-           defined package. A Java package organizes Java classes into namespaces, providing a unique namespace for each type it contains. Classes in the same package can         access each other's package-private and protected members
+
+### Q : Which package is correct ?
+A : **to create test2 package inside test1 package** :
++ `package test1/test2` : Unvalid
++ `package test1.test2` : Valid
++ `package test1 test2` : Unvalid
+
+
 ### Q : Write Class Conventions for Java?
 A : Class names should be `nouns`, in mixed case with the `first letter of each internal word capitalized`.
     Try to keep your class names simple and descriptive. Use whole words-avoid acronyms and abbreviations 
