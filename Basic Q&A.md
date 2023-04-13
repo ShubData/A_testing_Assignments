@@ -5,6 +5,8 @@ A : Class names should be `nouns`, in mixed case with the `first letter of each 
     Only special characters allowed in class name are` _ `and `$`.
     Class name can begin with _ and $ `but is discouraged`.
 
+### Q : Which Special character allowed in Java class first letter
+A : Only `_` and `$`are allowed as Java class first letter **but discouraged to use it as naming convention**.
 
 ### Q : Which class name is valid ?
 A : 
